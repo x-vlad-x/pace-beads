@@ -1,0 +1,14 @@
+#!/bin/sh
+# SPDX-License-Identifier: GPL-3.0-only
+# Keeps a user's disabled state across remove and clears it on purge.
+set -e
+unit=pace-beads-recorder.service
+case "$1" in
+remove)
+    deb-systemd-helper --user mask "$unit" >/dev/null || true
+    ;;
+purge)
+    deb-systemd-helper --user purge "$unit" >/dev/null || true
+    deb-systemd-helper --user unmask "$unit" >/dev/null || true
+    ;;
+esac

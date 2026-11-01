@@ -1,0 +1,17 @@
+[package]
+name = "pace-recorder"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "pace-beads-recorder"
+path = "src/main.rs"
+
+[dependencies]
+pace-core = { path = "../pace-core" }
+chrono.workspace = true
+gio.workspace = true
+glib.workspace = true
+glib-unix = "0.22"
+gettext-rs.workspace = true

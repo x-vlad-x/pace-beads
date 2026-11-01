@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.x_vlad_x.PaceBeads</id>
+  <name>Pace Beads</name>
+  <summary>Count daily steps offline</summary>
+  <summary xml:lang="de">Tägliche Schritte offline zählen</summary>
+  <summary xml:lang="ru">Подсчёт шагов за день без подключения к сети</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-only</project_license>
+  <description>
+    <p>An offline step counter for Linux phones with goals, streaks, milestones, history charts and local backups. Data stays on the device.</p>
+    <p xml:lang="de">Ein Offline-Schrittzähler für Linux-Smartphones mit Zielen, Serien, Meilensteinen, Verlaufsdiagrammen und lokalen Sicherungen. Die Daten bleiben auf dem Gerät.</p>
+    <p xml:lang="ru">Автономный шагомер для телефонов на Linux с целями, сериями, вехами, графиками истории и локальными резервными копиями. Данные остаются на устройстве.</p>
+  </description>
+  <launchable type="desktop-id">io.github.x_vlad_x.PaceBeads.desktop</launchable>
+  <url type="homepage">https://github.com/x-vlad-x/pace-beads</url>
+  <developer id="io.github.x_vlad_x">
+    <name>Vladislav Shadiuk</name>
+  </developer>
+  <supports>
+    <control>touch</control>
+  </supports>
+  <requires>
+    <display_length compare="ge">320</display_length>
+  </requires>
+  <content_rating type="oars-1.1"/>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Today's steps, goal progress and recent days</caption>
+      <image>https://raw.githubusercontent.com/x-vlad-x/pace-beads/v0.1.0/docs/screenshots/today-light.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>History with period totals, a chart and a calendar</caption>
+      <image>https://raw.githubusercontent.com/x-vlad-x/pace-beads/v0.1.0/docs/screenshots/history-light.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Records and milestones</caption>
+      <image>https://raw.githubusercontent.com/x-vlad-x/pace-beads/v0.1.0/docs/screenshots/achievements-light.png</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="0.1.0" date="2026-11-01" type="development">
+      <url type="details">https://github.com/x-vlad-x/pace-beads/releases/tag/v0.1.0</url>
+      <description>
+        <p>First public preview for FuriOS on the FuriPhone FLX1s. Accuracy and battery use have not been measured yet.</p>
+      </description>
+    </release>
+  </releases>
+</component>

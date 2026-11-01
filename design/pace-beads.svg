@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>Pace Beads icon</title>
+  <desc>A loop of cord with blue counting beads and one amber progress bead.</desc>
+  <path d="M44 98V40C44 25 51 16 64 16s20 9 20 24v58" fill="none" stroke="#3d3846" stroke-width="8" stroke-linecap="round"/>
+  <path d="M44 96V38C44 23 51 14 64 14s20 9 20 24v58" fill="none" stroke="#77767b" stroke-width="4" stroke-linecap="round"/>
+  <rect x="28" y="43" width="32" height="20" rx="9" fill="#1a5fb4"/>
+  <rect x="28" y="39" width="32" height="20" rx="9" fill="#62a0ea"/>
+  <path d="M36 44h16" stroke="#99c1f1" stroke-width="4" stroke-linecap="round"/>
+  <rect x="28" y="69" width="32" height="20" rx="9" fill="#1a5fb4"/>
+  <rect x="28" y="65" width="32" height="20" rx="9" fill="#3584e4"/>
+  <path d="M36 70h16" stroke="#62a0ea" stroke-width="4" stroke-linecap="round"/>
+  <rect x="28" y="95" width="32" height="20" rx="9" fill="#1a5fb4"/>
+  <rect x="28" y="91" width="32" height="20" rx="9" fill="#3584e4"/>
+  <path d="M36 96h16" stroke="#62a0ea" stroke-width="4" stroke-linecap="round"/>
+  <rect x="68" y="43" width="32" height="20" rx="9" fill="#c64600"/>
+  <rect x="68" y="39" width="32" height="20" rx="9" fill="#ffbe6f"/>
+  <path d="M76 44h16" stroke="#f9f06b" stroke-width="4" stroke-linecap="round"/>
+  <rect x="68" y="95" width="32" height="20" rx="9" fill="#006d66"/>
+  <rect x="68" y="91" width="32" height="20" rx="9" fill="#33d0b3"/>
+  <path d="M76 96h16" stroke="#8ff0ca" stroke-width="4" stroke-linecap="round"/>
+</svg>

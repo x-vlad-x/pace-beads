@@ -1,0 +1,13 @@
+[Unit]
+Description=Pace Beads step recorder
+Documentation=https://github.com/x-vlad-x/pace-beads
+
+[Service]
+Type=dbus
+BusName=io.github.x_vlad_x.PaceBeads.Recorder
+ExecStart=@BINDIR@/pace-beads-recorder
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target

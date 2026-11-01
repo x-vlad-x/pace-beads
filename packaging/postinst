@@ -1,0 +1,21 @@
+#!/bin/sh
+# SPDX-License-Identifier: GPL-3.0-only
+# Enables the recorder for all users and starts it in running user sessions.
+# deb-systemd-invoke refuses to start a unit that is not enabled, so enable first.
+set -e
+unit=pace-beads-recorder.service
+case "$1" in
+configure | abort-remove | abort-deconfigure)
+    deb-systemd-helper --user unmask "$unit" >/dev/null || true
+    if deb-systemd-helper --quiet --user was-enabled "$unit"; then
+        deb-systemd-helper --user enable "$unit" >/dev/null ||
+            echo "pace-beads: could not enable $unit" >&2
+    else
+        deb-systemd-helper --user update-state "$unit" >/dev/null || true
+    fi
+    deb-systemd-invoke --user daemon-reload ||
+        echo "pace-beads: could not reload user services" >&2
+    deb-systemd-invoke --user restart "$unit" ||
+        echo "pace-beads: restart $unit after logging in again" >&2
+    ;;
+esac

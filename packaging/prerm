@@ -1,0 +1,8 @@
+#!/bin/sh
+# SPDX-License-Identifier: GPL-3.0-only
+# Stops the recorder on removal; an upgrade restarts it from postinst.
+set -e
+if [ "$1" = remove ]; then
+    deb-systemd-invoke --user stop pace-beads-recorder.service ||
+        echo "pace-beads: stop pace-beads-recorder.service by hand" >&2
+fi

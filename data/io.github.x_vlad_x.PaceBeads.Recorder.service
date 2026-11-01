@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=io.github.x_vlad_x.PaceBeads.Recorder
+Exec=@BINDIR@/pace-beads-recorder
+SystemdService=pace-beads-recorder.service

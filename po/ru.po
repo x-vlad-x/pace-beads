@@ -1,0 +1,540 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pace-beads 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-11-01 12:00+0000\n"
+"Last-Translator: Vladislav Shadiuk <6992531+x-vlad-x@users.noreply.github.com>\n"
+"Language-Team: none\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: crates/pace-recorder/src/main.rs crates/pace-ui/src/preferences.rs
+msgid "Daily goal reached"
+msgstr "Дневная цель достигнута"
+
+#: crates/pace-recorder/src/main.rs
+#, rust-format
+msgid "You walked {} step today."
+msgid_plural "You walked {} steps today."
+msgstr[0] "Сегодня пройден {} шаг."
+msgstr[1] "Сегодня пройдено {} шага."
+msgstr[2] "Сегодня пройдено {} шагов."
+
+#: crates/pace-recorder/src/main.rs
+msgid "Good start"
+msgstr "Хорошее начало"
+
+#: crates/pace-recorder/src/main.rs
+msgid "You are on your way to today's goal."
+msgstr "Вы на пути к цели на сегодня."
+
+#: crates/pace-recorder/src/main.rs
+msgid "Almost there"
+msgstr "Почти готово"
+
+#: crates/pace-recorder/src/main.rs
+msgid "Three quarters of today's goal are done."
+msgstr "Три четверти дневной цели выполнены."
+
+#: crates/pace-recorder/src/main.rs
+msgid "New milestone"
+msgstr "Новая веха"
+
+#: crates/pace-recorder/src/main.rs
+#, rust-format
+msgid "{} step walked in total."
+msgid_plural "{} steps walked in total."
+msgstr[0] "Всего пройден {} шаг."
+msgstr[1] "Всего пройдено {} шага."
+msgstr[2] "Всего пройдено {} шагов."
+
+#: crates/pace-ui/src/chart.rs
+#, rust-format
+msgid "Bar chart of {}, {} in total"
+msgstr "Столбчатая диаграмма: {}, всего {}"
+
+#: crates/pace-ui/src/format.rs
+#, rust-format
+msgid "{} step"
+msgid_plural "{} steps"
+msgstr[0] "{} шаг"
+msgstr[1] "{} шага"
+msgstr[2] "{} шагов"
+
+#: crates/pace-ui/src/format.rs
+#, rust-format
+msgid "{} day"
+msgid_plural "{} days"
+msgstr[0] "{} день"
+msgstr[1] "{} дня"
+msgstr[2] "{} дней"
+
+#: crates/pace-ui/src/format.rs
+#, rust-format
+msgid "{} period"
+msgid_plural "{} periods"
+msgstr[0] "{} период"
+msgstr[1] "{} периода"
+msgstr[2] "{} периодов"
+
+#: crates/pace-ui/src/format.rs
+msgctxt "decimal separator"
+msgid "."
+msgstr ","
+
+#: crates/pace-ui/src/format.rs
+msgid "mi"
+msgstr "миль"
+
+#: crates/pace-ui/src/format.rs
+msgid "km"
+msgstr "км"
+
+#: crates/pace-ui/src/format.rs
+msgid "kcal"
+msgstr "ккал"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Daily Goal"
+msgstr "Дневная цель"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "A new goal applies from today. Past days keep their own goal."
+msgstr "Новая цель действует с сегодняшнего дня. Прошлые дни сохраняют свою цель."
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Steps per day"
+msgstr "Шагов в день"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Profile"
+msgstr "Профиль"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Used only for the distance and energy estimates."
+msgstr "Используется только для оценки расстояния и энергии."
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Imperial units"
+msgstr "Имперские единицы"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Height (in)"
+msgstr "Рост (дюймы)"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Weight (lbs)"
+msgstr "Вес (фунты)"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Step length (in, 0 = from height)"
+msgstr "Длина шага (дюймы, 0 — по росту)"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Height (cm)"
+msgstr "Рост (см)"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Weight (kg)"
+msgstr "Вес (кг)"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Step length (cm, 0 = from height)"
+msgstr "Длина шага (см, 0 — по росту)"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "System"
+msgstr "Как в системе"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Light"
+msgstr "Светлый"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Dark"
+msgstr "Тёмный"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Style"
+msgstr "Оформление"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Date format"
+msgstr "Формат даты"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Monday"
+msgstr "Понедельник"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Saturday"
+msgstr "Суббота"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "First day of the week"
+msgstr "Первый день недели"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Chart the current week"
+msgstr "Показывать текущую неделю на графике"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Encouragement during the day"
+msgstr "Ободрение в течение дня"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "New milestones"
+msgstr "Новые вехи"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Automatic Copies"
+msgstr "Автоматические копии"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Copies are written around midnight while the recorder runs."
+msgstr "Копии создаются около полуночи, пока работает регистратор."
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Folder"
+msgstr "Папка"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Not selected"
+msgstr "Не выбрана"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Select a Folder"
+msgstr "Выбор папки"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Every N days (0 = off)"
+msgstr "Каждые N дней (0 — выкл.)"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Copies to keep (0 = all)"
+msgstr "Хранить копий (0 — все)"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Last copy failed"
+msgstr "Последняя копия не удалась"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "History Files"
+msgstr "Файлы истории"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Import accepts CSV files and copies of a Stepsy database."
+msgstr "Импорт принимает файлы CSV и копии базы Stepsy."
+
+#: crates/pace-ui/src/preferences.rs crates/pace-ui/src/transfer.rs
+msgid "Export History"
+msgstr "Экспорт истории"
+
+#: crates/pace-ui/src/preferences.rs crates/pace-ui/src/transfer.rs
+msgid "Import History"
+msgstr "Импорт истории"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "General"
+msgstr "Общие"
+
+#: crates/pace-ui/src/preferences.rs
+msgid "Data"
+msgstr "Данные"
+
+#: crates/pace-ui/src/transfer.rs
+msgid "History exported"
+msgstr "История экспортирована"
+
+#: crates/pace-ui/src/transfer.rs
+#, rust-format
+msgid "Export failed: {}"
+msgstr "Ошибка экспорта: {}"
+
+#: crates/pace-ui/src/transfer.rs
+msgid "The file contains no history"
+msgstr "В файле нет истории"
+
+#: crates/pace-ui/src/transfer.rs
+#, rust-format
+msgid "{} from {} to {}, {}. This replaces the current history."
+msgstr "{} с {} по {}, {}. Текущая история будет заменена."
+
+#: crates/pace-ui/src/transfer.rs
+msgid "Replace History?"
+msgstr "Заменить историю?"
+
+#: crates/pace-ui/src/transfer.rs crates/pace-ui/src/window.rs
+msgid "Cancel"
+msgstr "Отмена"
+
+#: crates/pace-ui/src/transfer.rs
+msgid "Replace"
+msgstr "Заменить"
+
+#: crates/pace-ui/src/transfer.rs
+msgid "History imported"
+msgstr "История импортирована"
+
+#: crates/pace-ui/src/transfer.rs
+#, rust-format
+msgid "Import failed: {}"
+msgstr "Ошибка импорта: {}"
+
+#: crates/pace-ui/src/transfer.rs
+msgid "History files"
+msgstr "Файлы истории"
+
+#: crates/pace-ui/src/window.rs
+msgid "Progress to the daily goal"
+msgstr "Прогресс к дневной цели"
+
+#: crates/pace-ui/src/window.rs
+msgid "Distance (estimate)"
+msgstr "Расстояние (оценка)"
+
+#: crates/pace-ui/src/window.rs
+msgid "Energy (estimate)"
+msgstr "Энергия (оценка)"
+
+#: crates/pace-ui/src/window.rs
+msgid "Streak"
+msgstr "Серия"
+
+#: crates/pace-ui/src/window.rs
+msgid "Edit Steps"
+msgstr "Изменить"
+
+#: crates/pace-ui/src/window.rs
+msgid "Today"
+msgstr "Сегодня"
+
+#: crates/pace-ui/src/window.rs
+msgid "This week"
+msgstr "Эта неделя"
+
+#: crates/pace-ui/src/window.rs
+msgid "This month"
+msgstr "Этот месяц"
+
+#: crates/pace-ui/src/window.rs
+msgid "Last 7 days"
+msgstr "Последние 7 дней"
+
+#: crates/pace-ui/src/window.rs
+msgid "Last 30 days"
+msgstr "Последние 30 дней"
+
+#: crates/pace-ui/src/window.rs
+msgid "This year"
+msgstr "Этот год"
+
+#: crates/pace-ui/src/window.rs
+msgid "All time"
+msgstr "Всё время"
+
+#: crates/pace-ui/src/window.rs
+msgid "Period"
+msgstr "Период"
+
+#: crates/pace-ui/src/window.rs
+msgid "Total"
+msgstr "Всего"
+
+#: crates/pace-ui/src/window.rs
+msgid "Daily average"
+msgstr "В среднем за день"
+
+#: crates/pace-ui/src/window.rs
+msgid "Selected day"
+msgstr "Выбранный день"
+
+#: crates/pace-ui/src/window.rs
+#, rust-format
+msgid "Goal: {} step"
+msgid_plural "Goal: {} steps"
+msgstr[0] "Цель: {} шаг"
+msgstr[1] "Цель: {} шага"
+msgstr[2] "Цель: {} шагов"
+
+#: crates/pace-ui/src/window.rs
+msgid "No Records Yet"
+msgstr "Записей пока нет"
+
+#: crates/pace-ui/src/window.rs
+msgid "Achievements appear after the first walk."
+msgstr "Достижения появятся после первой прогулки."
+
+#: crates/pace-ui/src/window.rs
+#, rust-format
+msgid "{} to {}"
+msgstr "{} – {}"
+
+#: crates/pace-ui/src/window.rs
+msgid "Records"
+msgstr "Рекорды"
+
+#: crates/pace-ui/src/window.rs
+msgid "Recording since"
+msgstr "Запись ведётся с"
+
+#: crates/pace-ui/src/window.rs
+msgid "Total steps"
+msgstr "Всего шагов"
+
+#: crates/pace-ui/src/window.rs
+msgid "Average per recorded day"
+msgstr "В среднем за записанный день"
+
+#: crates/pace-ui/src/window.rs
+msgid "Best week"
+msgstr "Лучшая неделя"
+
+#: crates/pace-ui/src/window.rs
+msgid "Best month"
+msgstr "Лучший месяц"
+
+#: crates/pace-ui/src/window.rs
+msgid "Longest streak"
+msgstr "Самая длинная серия"
+
+#: crates/pace-ui/src/window.rs
+msgid "Top Days"
+msgstr "Лучшие дни"
+
+#: crates/pace-ui/src/window.rs
+msgid "Milestones"
+msgstr "Вехи"
+
+#: crates/pace-ui/src/window.rs
+msgid "Not reached yet"
+msgstr "Ещё не достигнута"
+
+#: crates/pace-ui/src/window.rs
+msgid "Resume"
+msgstr "Продолжить"
+
+#: crates/pace-ui/src/window.rs
+msgid "Pause"
+msgstr "Пауза"
+
+#: crates/pace-ui/src/window.rs
+msgid "The recorder is not running. Steps are not being counted."
+msgstr "Регистратор не запущен. Шаги не считаются."
+
+#: crates/pace-ui/src/window.rs
+msgid "Waiting for the step sensor."
+msgstr "Ожидание датчика шагов."
+
+#: crates/pace-ui/src/window.rs
+msgid "Counting is paused."
+msgstr "Подсчёт приостановлен."
+
+#: crates/pace-ui/src/window.rs
+#, rust-format
+msgid "Counting is paused until {}."
+msgstr "Подсчёт приостановлен до {}."
+
+#: crates/pace-ui/src/window.rs
+msgid "Minutes"
+msgstr "Минуты"
+
+#: crates/pace-ui/src/window.rs
+msgid "Pause Counting"
+msgstr "Приостановить подсчёт"
+
+#: crates/pace-ui/src/window.rs
+msgid "For Minutes Above"
+msgstr "На указанное время"
+
+#: crates/pace-ui/src/window.rs
+msgid "30 Minutes"
+msgstr "30 минут"
+
+#: crates/pace-ui/src/window.rs
+msgid "1 Hour"
+msgstr "1 час"
+
+#: crates/pace-ui/src/window.rs
+msgid "2 Hours"
+msgstr "2 часа"
+
+#: crates/pace-ui/src/window.rs
+msgid "Until Resumed"
+msgstr "До возобновления"
+
+#: crates/pace-ui/src/window.rs
+msgid "Steps today"
+msgstr "Шагов сегодня"
+
+#: crates/pace-ui/src/window.rs
+msgid "Edit Today's Steps"
+msgstr "Изменить шаги за сегодня"
+
+#: crates/pace-ui/src/window.rs
+msgid "Save"
+msgstr "Сохранить"
+
+#: crates/pace-ui/src/window.rs
+msgid "Reduce Today's Steps?"
+msgstr "Уменьшить шаги за сегодня?"
+
+#: crates/pace-ui/src/window.rs
+#, rust-format
+msgid "Today's total will become {}."
+msgstr "Итог за сегодня станет равен {}."
+
+#: crates/pace-ui/src/window.rs
+msgid "Reduce"
+msgstr "Уменьшить"
+
+#: crates/pace-ui/src/window.rs
+msgid "The recorder did not accept the change"
+msgstr "Регистратор не принял изменение"
+
+#: crates/pace-ui/src/window.rs
+msgid "An offline step counter."
+msgstr "Автономный шагомер."
+
+#: crates/pace-ui/src/window.rs
+msgid "Preferences"
+msgstr "Параметры"
+
+#: crates/pace-ui/src/window.rs
+msgid "About Pace Beads"
+msgstr "О приложении Pace Beads"
+
+#: crates/pace-ui/src/window.rs
+msgid "Main Menu"
+msgstr "Главное меню"
+
+#: crates/pace-ui/src/window.rs
+msgid "Cannot Open the History"
+msgstr "Не удалось открыть историю"
+
+#: crates/pace-ui/src/window.rs
+msgid "Close"
+msgstr "Закрыть"
+
+#: crates/pace-ui/src/window.rs
+msgid "History"
+msgstr "История"
+
+#: crates/pace-ui/src/window.rs
+msgid "Achievements"
+msgstr "Достижения"

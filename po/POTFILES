@@ -1,0 +1,6 @@
+crates/pace-recorder/src/main.rs
+crates/pace-ui/src/chart.rs
+crates/pace-ui/src/format.rs
+crates/pace-ui/src/preferences.rs
+crates/pace-ui/src/transfer.rs
+crates/pace-ui/src/window.rs

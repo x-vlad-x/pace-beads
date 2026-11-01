@@ -1,0 +1,13 @@
+/target/
+/build/
+/dist/
+/.cache/
+/.venv/
+__pycache__/
+*.py[cod]
+*.swp
+*~
+.DS_Store
+.env
+.env.*
+!.env.example

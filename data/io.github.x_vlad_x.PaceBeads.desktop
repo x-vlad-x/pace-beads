@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Application
+Name=Pace Beads
+GenericName=Step Counter
+GenericName[de]=Schrittzähler
+GenericName[ru]=Шагомер
+Comment=Count daily steps offline
+Comment[de]=Tägliche Schritte offline zählen
+Comment[ru]=Подсчёт шагов за день без подключения к сети
+Exec=pace-beads
+Icon=io.github.x_vlad_x.PaceBeads
+Terminal=false
+Categories=GTK;Utility;
+Keywords=steps;pedometer;walking;health;
+Keywords[de]=Schritte;Schrittzähler;Gehen;Gesundheit;
+Keywords[ru]=шаги;шагомер;ходьба;здоровье;
+StartupNotify=true
+X-Purism-FormFactor=Workstation;Mobile;

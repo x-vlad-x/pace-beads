@@ -1,0 +1,14 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Pace Beads
+Source: https://github.com/x-vlad-x/pace-beads
+
+Files: *
+Copyright: 2026 Vladislav Shadiuk
+License: GPL-3.0-only
+ On Debian systems the full license text is in
+ /usr/share/common-licenses/GPL-3.
+
+Comment:
+ The binaries statically link SQLite (public domain) and Rust crates under
+ their own permissive licenses. /usr/share/doc/pace-beads/THIRD-PARTY-LICENSES
+ lists each crate with its version, license and license text.

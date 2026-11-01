@@ -1,0 +1,25 @@
+[workspace]
+members = ["crates/pace-core", "crates/pace-recorder", "crates/pace-ui"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-only"
+rust-version = "1.85"
+
+[workspace.dependencies]
+chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
+rusqlite = { version = "0.37", features = ["bundled"] }
+thiserror = "2"
+gtk = { package = "gtk4", version = "0.11", features = ["v4_16"] }
+adw = { package = "libadwaita", version = "0.9", features = ["v1_7"] }
+gio = "0.22"
+glib = "0.22"
+gettext-rs = { version = "0.7", features = ["gettext-system"] }
+
+[profile.release]
+opt-level = "s"
+lto = "thin"
+strip = true
+panic = "abort"
